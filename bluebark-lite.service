@@ -1,0 +1,15 @@
+[Unit]
+Description=Bluebark Lite SDR Detector
+After=local-fs.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/bluebarklite
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /root/bluebarklite/bluebark_lite_app.py
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
