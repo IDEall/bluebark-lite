@@ -48,6 +48,8 @@ Python packages:
 
 When you build `rtl_power_fftw` yourself, you also typically need FFTW and RTL-SDR development packages.
 
+
+
 Example install set on Debian-based Pi systems:
 
 ```bash
@@ -99,6 +101,14 @@ sudo systemctl status bluebark-lite.service
 ## Tuning Notes
 
 - `TESTPMR` is aimed at the 446 MHz PMR range.
+
+rtl_power_fftw scans the selected frequency range
+        ↓
+binary sweep data goes into a RAM FIFO
+        ↓
+Cython reads the FIFO and extracts the strongest peak
+        ↓
+Python handles display, buttons, threshold, and buzzer
 
 Important: this is a signal presence and strength monitor only. It does not decode, demodulate, or reconstruct TETRA voice or data content.
 This repository is provided as-is.
