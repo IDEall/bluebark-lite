@@ -102,13 +102,7 @@ sudo systemctl status bluebark-lite.service
 
 - `TESTPMR` is aimed at the 446 MHz PMR range.
 
-rtl_power_fftw scans the selected frequency range
-        ↓
-binary sweep data goes into a RAM FIFO
-        ↓
-Cython reads the FIFO and extracts the strongest peak
-        ↓
-Python handles display, buttons, threshold, and buzzer
+rtl_power_fftw scans the selected frequency range - binary sweep data goes into a RAM FIFO - Cython reads the FIFO and extracts the strongest peak - Python handles display, buttons, threshold, and buzzer.
 
 Important: this is a signal presence and strength monitor only. It does not decode, demodulate, or reconstruct TETRA voice or data content.
 This repository is provided as-is.
