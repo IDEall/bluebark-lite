@@ -1,6 +1,6 @@
 # BlueBark Lite
 
-BlueBark Lite is a low-latency Raspberry Pi 3 (and compatible) spectrum detector for TETRA-like signals. 
+A lightweight Raspberry Pi + RTL-SDR signal presence detector for TETRA-like RF activity. 
 
 
 ## What It Does
