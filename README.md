@@ -10,7 +10,8 @@ A lightweight Raspberry Pi + RTL-SDR signal presence detector for TETRA-like RF 
 - Drives a small OLED meter and status readout.
 - Uses three membrane buttons for mute, mode, squelch floor, shutdown, and OLED rotation.
 - Beeps through an active buzzer when signal thresholds are crossed.
-
+- Basically it's an emergency services alert system
+  
 ## OLED Layout
 
 The OLED is intentionally minimal so it stays readable at a glance.
