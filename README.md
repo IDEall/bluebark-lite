@@ -1,6 +1,6 @@
 # BlueBark Lite
 
-A lightweight Raspberry Pi + RTL-SDR signal presence detector for TETRA-like RF activity. 
+A lightweight Raspberry Pi + RTL-SDR signal presence detector for TETRA-like RF activity (Emergency Vehicles Detector). 
 
 
 ## What It Does
