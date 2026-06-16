@@ -110,4 +110,4 @@ This repository is provided as-is.
 
 ## License
 
-MIT 
+MIT (C) 2026 S R Fydryk
